@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'Pan-font';
+    src: url('Pan-Font/OTF/Pan.otf');
+    font-weight: normal;
+    font-style:normal;
+}
+
+body {
+    background-color: #0000;
+}
+
+h1 {
+    font-family: 'Pan-Font', Helvetica, sans-serif;
+    font-size: 80px;
+    color: aqua;
+    text-align: center;
+    text-shadow: 4px 4px #D3C0CD;
+}
+
+h2 {
+    font-family: 'Pan-Font', Helvetica, sans-serif;
+    text-shadow: 2px 2px #D3C0CD;
+}
+
+p {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.site-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.wallet-container {
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+    background-color: #FFE3E3;
+    width: 400px;
+    height: 600px;
+    border-radius: 25px;
+  }
+
+  .game-container{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    background-color: #E3DFFF;
+    width: 1000px;
+    height: 600px;
+    border-radius:25px;
+}
+.calendar-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 500px;
+    justify-content: flex-start;
+}
+
+.calendar-square{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    background-color: aqua;
+    box-shadow:  5px 10px #D3C0CD;
+    border-radius: 5px;
+}
+
+/*font-family: 'Libre Baskerville', serif;
+font-family: 'Roboto Mono', monospace;*/
