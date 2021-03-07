@@ -1,10 +1,20 @@
-/* file uses flexbox styling to organize divs in gameindex.html*/
+@charset "utf-8";
+/* CSS Document */
 
 @font-face {
     font-family: 'Pan-font';
     src: url('Pan-Font/OTF/Pan.otf');
     font-weight: normal;
     font-style:normal;
+}
+
+button{
+    height: 150px;
+    width: 250px;
+    background-color: aqua;
+    border-radius: 25px;
+    border-width: 0px;
+    box-shadow: 4px 4px #D3C0CD;
 }
 
 body {
@@ -19,6 +29,13 @@ h1 {
     text-shadow: 4px 4px #D3C0CD;
 }
 
+#question {
+    font-family: 'Roboto Mono', monospace;
+}
+
+#answers {
+	 font-family: 'Roboto Mono', monospace;
+}
 h2 {
     font-family: 'Pan-Font', Helvetica, sans-serif;
     text-shadow: 2px 2px #D3C0CD;
@@ -60,6 +77,7 @@ p {
     height: 300px;
     width: 500px;
     justify-content: flex-start;
+	align-content: space-evenly;
 }
 
 .calendar-square{
