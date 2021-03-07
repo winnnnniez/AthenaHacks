@@ -1,7 +1,58 @@
-Main Idea: Young adult female having to deal with gender inequality.
+Main Idea:
+-->Financial Literacy
+
+Interface:
+--> calendar
+--> bank
+--> school debt: 
+--> stress meter: max 10 points
 
 --Game Flow--
-Introduce character - Sally, a young adult professional working in the tech industry.
-Choose job - Entry level low paying job with benefits and a good team OR a more experienced position with known-to-be unhelpful management?
-
-
+Introduce character - Sally, a young adult professional working in the computer science industry. She has just graduated with her Bachelor's degree and is trying to pay off her school debts while mantaining her stress level.
+Choices: job, her job determines income, she could get a raise for completing a minigame with a high score, End Game: paying off debt, stress meter - if stress is too high she starts over
+--> Game ends after 30 months and every 3 months she makes a decision for a total of 10 questions.
+--> Job: After recieving her bachelor's degree in Computer Science, Sally has 3 job choices: 
+            -High Stress Coorperation
+            -Startup Company
+            -Low Stress Local Company
+--> Emergency financial setbacks
+            -Medical Emergency: increases stress and decreases money
+                  -emergency surgery $10k stress .5   
+                  -
+                  -
+            -Robbery: increases stress and decreases money by half
+                  -
+            -Car Problems: increases stress
+            -Called into work during the weekend: increases stress and increases money
+            -House burns down: increases stress and decreases money
+            -Promotion: increases stress and increases money
+--> De-Stressers
+            -Skip work to go on a date: lowers stress and lowers money
+            -Play video games pick up another day at work
+            
+            
+            
+Game Path 1 High Stress Coorperation
+1. Work is calling you in and its a Saturday. 
+      Pick up the phone and go in, because you need the extra cash. (Inc. money Inc. stress)
+      OR 
+      Ignore the call and stay home with Zelda, your cat, instead. (Dec. stress)
+--> work was really stressful these past 3 months. Your boss has asked you to lead a project and you're struggling to get your develepors to finish by deadlines.
+--> Increase stress 1 point.
+--> Pay out salary for the last 3 months
+2. Your very trustworthy 2005 Honda Civic has broken down on the way to work.
+      a Pay to get it fixed immediately. (Dec. money but car problems)
+      OR
+      b Walk or take public transit. (Inc. chances of robbery)
+      OR
+      c Get a new car. ( Inc. debt but iliminates car problems)
+IF a is chosen: 
+--> Work has been low stress these past 3 months.
+--> Pay out salary for last 3 months.
+IF b is chosen:
+--> Without a car its been hard to get to work on time because you're not used to the bus schedule.
+--> Increase stress 1 point
+IF c is chosen: 
+--> Work has rewarded you with your continued dedication to the company and has given you a promotion (Inc. stress Inc. salary)
+--> Increase stress 1.5 points
+--> Increase salary 
